@@ -35,11 +35,3 @@ with open("sample_review.txt") as f:
         print(line)
         print(encode)
         print(predict[0])
-
-# test_review = test_data[0]
-# predict = model.predict(np.expand_dims(test_review, axis=0))
-# print("Review: ")
-# print(decode_review(test_review))
-# print("Prediction: " + str(predict[0]))
-# print("Actual: " + str(test_labels[0]))
-# print(results)
